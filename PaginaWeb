@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart homes against heat</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-bqox;
+    }
+
+    body{
+        font-family: Arial, sans-serif;
+        background:#f4f6f8;
+        color:#333;
+    }
+
+   
+    header{
+        background: url('https://epsole.com/wp-content/uploads/2024/05/what-is-icf-block-construction.webp');
+        height:250px;
+        color:white;
+        text-align:center;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    header h1{
+        font-size:40px;
+        text-shadow:2px 2px 5px black;
+    }
+
+    header p{
+        font-size:20px;
+        margin-top:10px;
+    }
+
+  
+    nav{
+        background:#333;
+        padding:15px;
+        text-align:center;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:15px;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        color:orange;
+    }
+
+   
+    section{
+        background:white;
+        width:85%;
+        margin:25px auto;
+        padding:25px;
+        border-radius:15px;
+        box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+        color:#d97706;
+        margin-bottom:15px;
+    }
+
+    h3{
+        color:#444;
+        margin-bottom:10px;
+        margin-top:15px;
+    }
+
+    p, li{
+        line-height:1.8;
+    }
+
+
+    .simulacion{
+        text-align:center;
+    }
+
+    .simulacion img{
+        width:80%;
+        border-radius:15px;
+        margin-top:15px;
+    }
+
+
+    table{
+        width:100%;
+        border-collapse:collapse;
+        margin-top:20px;
+    }
+
+    th{
+        background:#f472b6;
+        color:white;
+        padding:15px;
+    }
+
+    td{
+        border:1px solid #ddd;
+        padding:15px;
+        text-align:center;
+    }
+
+    tr:nth-child(even){
+        background:#f9f9f9;
+    }
+
+ 
+    .materiales ul{
+        margin-left:20px;
+    }
+
+  
+    #acerca{
+        text-align:justify;
+    }
+
+    #acerca ul{
+        margin-left:20px;
+        margin-top:15px;
+    }
+
+
+    footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+
+<header>
+    <h1>Smart homes against heat</h1>
+    <p>Sistema de aislamiento térmico para viviendas</p>
+</header>
+
+<nav>
+   <a href="#Intro">Intro</a>
+   <a href="#Que es el ICF?">Que es el ICF?</a>
+     <a href="#¿Cómo sirve el ICF en una casa?">¿Cómo sirve el ICF en una casa?</a>
+    <a href="#tabla">Tabla</a>
+    <a href="Transferencia de calor en la vivienda
+">Transferencia de calor en la vivienda
+</a>
+    <a href="#analisis">Análisis</a>
+     <a href="#Video">Video</a>
+    <a href="#acerca">Acerca de</a>
+</nav>
+
+<section id="Intro" class="Intro?">
+    <h2>Introducción</h2>
+
+    <p>
+       Este proyecto fue desarrollado con el propósito de analizar cómo influye
+        el sistema ICF en la temperatura y resistencia de una vivienda.
+        Mediante comparaciones y mediciones, se observó que las casas con ICF
+        mantienen mejor la temperatura y ayudan a ahorrar energía. 
+    </p>
+    
+  
+   
+
+</section>
+
+
+
+
+<section>
+    <h2>¿Qué es el ICF?</h2>
+
+    <p>
+        El ICF es un sistema de construcción que usa bloques especiales de espuma
+        y concreto para hacer las paredes de una casa. Las siglas significan
+        <b>Insulated Concrete Forms</b>. Ayuda a que las casas sean más resistentes
+        y mantengan mejor la temperatura.
+    </p>
+    
+    <img src="https://epsole.com/wp-content/uploads/2024/05/What-is-ICF-Blocks-1.webp" width=250>
+   
+
+</section>
+
+<section id="¿Cómo sirve el ICF en una casa?" class="¿Cómo sirve el ICF en una casa?">
+    <h2>¿Cómo sirve el ICF en una casa?</h2>
+
+    <p>
+        El ICF sirve para que la casa esté más fresca cuando hace calor y más caliente cuando hace frío. También ayuda a ahorrar electricidad porque no se necesita usar tanto el aire acondicionado o la calefacción. Además, las paredes son más fuertes y aíslan mejor el ruido.
+    </p>
+
+
+
+<section id="tabla" class="Tabla">
+    <h2>Tabla comparativa de temperatura</h2>
+
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Casa Normal</th>
+            <th>Casa con Aislante ICF</th>
+        </tr>
+
+        <tr>
+            <td>7 am</td>
+            <td>28.1°C</td>
+            <td>27.6°C</td>
+        </tr>
+
+        <tr>
+            <td>8 am</td>
+            <td>35.3°C</td>
+            <td>33.1°C</td>
+        </tr>
+
+        <tr>
+            <td>9 am</td>
+            <td>38.6°C</td>
+            <td>36.4°C</td>
+        </tr>
+
+        <tr>
+            <td>10 am</td>
+            <td>38.3°C</td>
+            <td>37.1°C</td>
+        </tr>
+
+        <tr>
+            <td>11 am</td>
+            <td>36.0°C</td>
+            <td>35.0°C</td>
+        </tr>
+
+        <tr>
+            <td>12 pm</td>
+            <td>33.7°C</td>
+            <td>33.4°C</td>
+        </tr>
+
+        <tr>
+            <td>1 pm</td>
+            <td>35.2°C</td>
+            <td>34.1°C</td>
+        </tr>
+
+        <tr>
+            <td>2 pm</td>
+            <td>42.1°C</td>
+            <td>39.4°C</td>
+        </tr>
+    </table>
+</section>
+
+
+
+<section id="Transferencia de calor en la vivienda
+">
+    <h2>Transferencia de calor en la vivienda</h2>
+
+<p> 
+Conducción
+
+Es cuando el calor pasa de un material a otro. Materiales como el unicel o espuma hacen que el calor entre más lentamente.
+
+Convección
+
+Es el movimiento del calor por medio del aire. Una buena ventilación ayuda a disminuir el calor dentro de la casa.
+
+Radiación
+
+Es el calor que proviene directamente del sol. Los colores claros y materiales reflectantes ayudan a disminuir este efecto.
+</p>
+
+  
+    </p>
+</section>
+<section id="analisis">
+    <h2>ANÁLISIS DEL SISTEMA ICF</h2>
+
+  
+    <h3>¿Por qué fue creado el ICF?</h3>
+
+    <p>
+        El ICF fue creado para construir casas más seguras, cómodas y eficientes.
+        Combina aislamiento y concreto para mejorar la calidad de las viviendas
+        y hacerlas durar más tiempo.
+    </p>
+
+    <h3>¿Por qué es importante el ICF?</h3>
+
+    <p>
+        Es importante porque ayuda a ahorrar energía y dinero, protege mejor la
+        casa contra el clima y hace que las personas vivan más cómodas.
+        También puede resistir mejor algunos desastres naturales, como vientos fuertes.
+    </p>
+
+    <h3>Conclusión</h3>
+
+    <p>
+        En conclusión, el ICF es una muy buena opción para construir casas porque
+        ayuda a mantener una temperatura agradable, ahorrar energía y hacer las
+        viviendas más resistentes. Aunque puede costar un poco más al principio,
+        a largo plazo trae muchos beneficios para las personas y para el medio ambiente.
+    </p>
+</section>
+
+
+<section id="Video
+">
+    <h2>Video</h2>
+
+<video width="640" height="360" controls>
+  <source src="https://124100-alesquer.github.io/video5.mp4" type="video/mp4">
+
+</video>
+
+
+  
+    </p>
+</section>
+
+<section id="acerca">
+    <h2>Acerca del proyecto</h2>
+
+  
+
+    <h3>Equipo</h3>
+
+    <ul>
+        <li>Alejandro E</li>
+        <li>Luis A</li>
+        <li>Sofia V</li>
+        <li>Nelly P</li>
+        <li>Keira P</li>
+    </ul>
+</section>
+
+
+<footer>
+    <p>Proyecto de Construcción Sustentable con ICF</p>
+</footer>
+
+</body>
+</html>
+</section>
+
+
+<footer>
